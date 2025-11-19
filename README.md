@@ -21,7 +21,7 @@ needed.
 You can install the package using pip:
 
 ```bash
-pip install percent
+pip install ez-percent
 ```
 
 ## Usage

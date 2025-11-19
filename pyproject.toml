@@ -1,5 +1,5 @@
 [project]
-name = "percent"
+name = "ez-percent"
 version = "0.0.1"
 authors = [
   { name="yolowex", email="yolowex@gmail.com" },
