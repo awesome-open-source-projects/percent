@@ -2,7 +2,7 @@
 name = "ez-percent"
 version = "0.0.1"
 authors = [
-  { name="yolowex", email="yolowex@gmail.com" },
+    { name="yolowex", email="yolowex@gmail.com" },
 ]
 description = "A comprehensive codebase to calculate percentages."
 readme = "README.md"
@@ -24,3 +24,6 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/percent"]
+
+[project.scripts]
+percent = "percent:__percent.main"
